@@ -11,5 +11,3 @@ echo "Please enter your Last Name:"
 read Lname
 
 echo "Welcome $Fname $Lname, This is the DevOps Session"
-
-fi
