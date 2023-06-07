@@ -1,0 +1,64 @@
+515  git status
+  516  cd .git
+  517  cd ..
+  518  cd SourceCode/
+  519  git status
+  520  git add first.sh
+  521  git status
+  522  git commit -m"my first shell script"
+  523  git status
+  524  git status
+  525  git add first.sh
+  526  git status
+  527  git commit -m"i have solved the issue on line #15"
+  528  git status
+  529  git status
+  530  git add second.sh
+  531  git commit -m"added second.sh"
+  532  git log
+  533  git -h
+  534  git log
+  535  cd .git/
+  536  ls
+  537  cat HEAD
+  538  cd refs/heads/master
+  539  cd refs/heads/
+  540  ls
+  541  ls -l
+  542  cat master
+  543  ls
+  544  cd ..
+  545  cd ..
+  546  ls -l
+  547  cat index
+  548  ls -l
+  549  cd ..
+  550  git status
+  551  git status
+  552  git add .
+  553  git status
+  554  git commit -m"deleted second.sh and added first.py"
+  555  git status
+  556  git -h
+  557  git remote -h
+  558  cd ..
+  559  git clone https://github.com/mithuns1986/SourceCode.git
+  560  cd -
+  561  git remote -h
+  562  git remote add origin master git@github.com:mithuns1986/SourceCode.git
+  563  git remote add origin git@github.com:mithuns1986/SourceCode.git
+  564  git status
+  565  git remote -v
+  566  git push origin master
+  567  git status
+  568  git add .
+  569  git commit-m"added one more line in first.py"
+  570  git push
+  571  git push origin master
+  572  ssh-keygen -t rsa
+  573  cat /c/Users/MITHUN/.ssh/id_rsa.pub
+  574  git push origin master
+  575  git status
+  576  git commit -m"modified first.py"
+  577  git push origin master
+  578  history
