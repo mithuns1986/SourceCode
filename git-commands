@@ -62,3 +62,164 @@
   576  git commit -m"modified first.py"
   577  git push origin master
   578  history
+ 640  cd /d/SourceCode/
+  641  ls
+  642  python first.py
+  643  ls
+  644  bash first.sh
+  645  git status
+  646  git branch
+  647  ls
+  648  git status
+  649  git add .
+  650  git commit -m"modified firdt.py"
+  651  git status
+  652  git push origin master
+  653  ls
+  654  git fetch
+  655  git status
+  656  ls
+  657  git merge
+  658  git merge master
+  659  ls
+  660  git fetch
+  661  git merge origin
+  662  git merge origin master
+  663  git merge -h
+  664  git branch
+  665  git pull
+  666  git pull origin master
+  667  ls
+  668  git branch
+  669  git pull origin main
+  670  git branch
+  671  git checkout main
+  672  git pull origin main
+  673  ls
+  674  git branch
+  675  ls
+  676  git checkout master
+  677  ls
+  678  git branch feature
+  679  git branch
+  680  git checkout -b hotfix
+  681  ls
+  682  git checkout feature
+  683  ls
+  684  git status
+  685  git add .
+  686  git commit -m"feature is added"
+  687  git status
+  688  ls
+  689  git checkout master
+  690  ls
+  691  git checkout feature
+  692  git checkout master
+  693  git status
+  694  git add .
+  695  git commit -m"merging from feature to master"
+  696  git log
+  697  git checkout master
+  698  git merge feature
+  699  ls
+  700  ls
+  701  git status
+  702  git log
+  703  git checkout -b merge-conflict
+  704  ls
+  705  git status
+  706  git add feature.sh
+  707  git commit -m"modified feature.sh"
+  708  git status
+  709  ls
+  710  git checkout master
+  711  git add feature.sh
+  712  git commit -m"modified feature.sh from master"
+  713  git merge merge-conflict
+  714  git status
+  715  git commit -m"solved the merge-conflict"
+  716  git status
+  717  ls
+  718  cat feature.sh
+  719  git checkout feature
+  720  ls
+  721  git status
+  722  git add .
+  723  git commit -m"modified feature.sh "
+  724  git push origin feature
+  725  ls
+  726  git branch rebase
+  727  git checkout rebase
+  728  ls
+  729  git status
+  730  git add feature.sh
+  731  git commit -m"rebase branch rebase to main"
+  732  git status
+  733  git checkout main
+  734  ls
+  735  git rebase rebase
+  736  ls
+  737  git log
+  738  git log --oneline
+  739  git status
+  740  git pull
+  741  ls
+  742  git status
+  743  git pull origin main
+  744  git status
+  745  git log --oneline
+  746  git checkout master
+  747  ls
+  748  git log --oneline
+  749  git checkout -b test
+  750  ls
+  751  git log --oneline
+  752  git status
+  753  git status
+  754  git checkout master
+  755  git checkout test
+  756  git add stash
+  757  git checkout master
+  758  git checkout test
+  759  git stash -h
+  760  git stash list
+  761  git stash show
+  762  ls
+  763  git checkout master
+  764  git stash list
+  765  git checkout test
+  766  git stash
+  767  git stash list
+  768  git stash show
+  769  ls
+  770  git stash show
+  771  git stash -h
+  772  git stash apply
+  773  git status
+  774  git stash show
+  775  git stash pop
+  776  git stash list
+  777  git stash show
+  778  git status
+  779  git checkout master
+  780  git checkout test
+  781  git stash show
+  782  git stash
+  783  git stash list
+  784  git stash pop
+  785  git stash
+  786  git stash pop
+  787  git status
+  788  git stash -h
+  789  git stash apply
+  790  git checkout master
+  791  git checkout test
+  792  git stash list
+  793  git stash
+  794  git stash list
+  795  git stash clear
+  796  git stash list
+  797  git checkout master
+  798  git checkout test
+  799  ls
+  800  git stash -h
